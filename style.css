@@ -1,0 +1,21 @@
+#btnl
+{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: grey;
+}
+#btnr
+{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: gray;
+}
+img
+{
+    width: 960px;
+    height: 560px;
+}
+.wrapper
+{
+    margin-left: 100px;
+}

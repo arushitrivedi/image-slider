@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image slider</title>
+</head>
+<body>
+    <h1 style="color: black;margin-left: 595px; font-weight: bold;">Image slider</h1>
+    <br>
+    <br>
+    <div class="wrapper" style="max-width: 1000px; position:relative;">
+        <img src="images/pic1.jpg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic4.jpg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic5.jpeg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic2.jpg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic3.jpg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic6.jpg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic7.jpg" width="100%" alt="img" class="mySlides">
+        <img src="images/pic8.jpg" width="100%" alt="img" class="mySlides">
+        <a class="btn1" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">
+            <span id="btnl">&lt</span>
+        </a>
+        <a class="btn2" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">
+            <span id="btnr">&gt</span>
+        </a>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
